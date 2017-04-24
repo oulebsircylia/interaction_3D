@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cylia/Bureau/fractal_julia/class_RGB.h
+math.h
+-
+
+/home/cylia/Bureau/fractal_julia/lol.cpp
+opencv2/highgui/highgui.hpp
+/home/cylia/Bureau/fractal_julia/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/cylia/Bureau/fractal_julia/opencv2/imgproc/imgproc.hpp
+iostream
+-
+stdio.h
+-
+math.h
+-
+complex
+-
+time.h
+-
+thread
+-
+semaphore.h
+-
+chrono
+-
+pthread.h
+-
+fstream
+-
+ctime
+-
+class_RGB.h
+/home/cylia/Bureau/fractal_julia/class_RGB.h
+
